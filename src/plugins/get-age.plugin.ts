@@ -5,7 +5,3 @@ export const getAge = (birthdate: string) => {
 
     return getAgePlugin(birthdate);
 }
-
-module.exports = {
-    getAge
-}

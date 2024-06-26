@@ -1,7 +1,5 @@
-// console.log(process.env)
-
 const { SHELL } = process.env;
 
-const characters = [ 'superman', 'Flash', 'batman2'];
+export const characters = [ 'Superman', 'Flash', 'Batman'];
 
 const [ , ,batman] = characters;
